@@ -121,6 +121,41 @@ header a:hover{
 	color: #403737;
 }
 
+
+/*signup*/
+#signup{
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-size: 16px;
+}
+
+#signup label {
+	font-size: 20px;
+	display: block;
+}
+
+button{
+    background-color: #403737;
+    font-size: 25px;
+    border: none;
+    margin-top: 10px;
+    border-radius: 12px;
+    color: white;
+    padding: 15px;
+    width: 25%;
+}
+input{
+    font-size: 30px;
+    margin: 20px;
+    border-radius: 10px;
+    border: solid;
+    text-align: center;
+
+}
+
+
 /*Footer*/
 footer{
 	padding: 20px;
@@ -135,6 +170,8 @@ article#main-col{
 	float: left;
 	width: 65%;
 }
+
+
 
 /*Services*/
 ul#services li{
