@@ -14,10 +14,10 @@
     color: red;
     float:left;
     margin: 5px;
-    width: 30%;
+    width: 20%;
 }
 .menu-img img{
-    width: 200px;
+    width: 100%;
 }
 .menu-name{
  margin: 5px;
@@ -26,7 +26,7 @@
 }
 .menu-add{
     margin: 5px;
-    float:right;
+    float:left;
     width: 10%;
 }
 .menu-title h3{
@@ -34,6 +34,14 @@
     padding: 0;
 }
 
+#checkout {
+  position: fixed ;
+  right: 0 ;
+  top: 1;
+  z-index: 1 ;
+   width: 400px;
+    border: 3px solid #403737;
+}
 @media (max-width: 768px) {
     .menu-img, .menu-name, .menu-add{
         float: none;
@@ -41,4 +49,14 @@
     .menu-title{
         display: none;
     }
+    .menu-img img{
+    width: 200px;
+    }
+    #checkout/*button first*/ {
+  position: fixed ;
+  bottom: 0;
+  z-index: 1 ;
+   width: 100%;
+    border: 3px solid #403737;
+}
 }
