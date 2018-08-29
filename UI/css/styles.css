@@ -42,8 +42,8 @@ header li{
 .headnav{	
 	background-color: #403737;
 	opacity: 0.7;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 	}
 
 header #brandname{
@@ -121,6 +121,19 @@ header a:hover{
 	color: #403737;
 }
 
+.quickwrapper{
+	padding: 10px;
+	background-color: #000000;
+}
+
+ .quicklinks{
+	display: inline-block;
+	padding: 20px;
+	width: 30%;
+	color: #ffffff;
+	
+}
+
 
 /*signup*/
 #signup{
@@ -144,7 +157,7 @@ button{
     border-radius: 12px;
     color: white;
     padding: 15px;
-    width: 25%;
+    width: 50%;
 }
 input{
     font-size: 30px;
@@ -158,8 +171,8 @@ input{
 
 /*Footer*/
 footer{
-	padding: 20px;
-	margin-top: 20px;
+	padding:20px;
+  	margin-top:20px;  
 	color: #ffffff;
 	background-color: #403737;
 	text-align: center;
@@ -193,10 +206,23 @@ ul#services li{
 	}
 
 	header{
+		
+		background: url('../images/chef.jpg');
+    	background-repeat: no-repeat;
+    	background-size: auto;
 		padding-bottom: 20px;
 	}
 
 	#showcase h1{
 		margin-top: 40px;
 	}
-}
+
+	button{
+    width: 100%;
+    margin-top: 20px;
+	}
+	input, label {
+    width: 100%;
+    margin-top: 20px;
+    margin: auto;
+	}
