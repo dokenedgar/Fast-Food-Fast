@@ -1,0 +1,165 @@
+/*{}*/
+
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	line-height: 1.5;
+	padding: 0;
+	margin: 0;
+	background-color: #f4f4f4;
+}
+/*Global*/
+.container{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+}
+/*Header*/
+header{
+	background: url('../images/chef.jpg') no-repeat 0 -250px;
+	color: #ffffff;
+	min-width: 70px;
+}
+
+header a{
+	color: #ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+header li{
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+
+.headnav{	
+	background-color: #403737;
+	opacity: 0.7;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	}
+
+header #brandname{
+	float: left;
+
+	
+}
+
+header #brandname h1{
+	margin: 0;
+	opacity: 1;
+}
+
+header nav{
+	float: right;
+	margin-top: 10px;
+
+}
+
+header .highlight, header .current a{
+	color: #000000;
+	font-weight: bold;
+}
+
+header a:hover{
+	color:#ccccccc;
+	font-weight: bold;
+}
+
+#welcome{
+	display: block;
+}
+/*Showcase*/
+#showcase{
+	min-height: 400px;
+	text-align: center;
+	color: #403737;
+}
+
+#showcase h1{
+	margin-top: 100px;
+	font-size: 55px;
+	margin-bottom: 10px;
+}
+
+#showcase p{
+	font-size: 20px;
+}
+
+
+
+/*Boxes*/
+#boxes{
+	margin-left: 5%;
+}
+
+#boxes .box{
+	float: left;
+	width: 20%;
+	padding: 10px;
+	text-align: center;
+}
+
+#boxes h2{
+	font-size: 30px;
+	text-align: center;
+	text-transform: uppercase;
+}
+#boxes .box img{
+	width: 90px;
+}
+
+#boxes .box a{
+	text-decoration: none;
+	color: #403737;
+}
+
+/*Footer*/
+footer{
+	padding: 20px;
+	margin-top: 20px;
+	color: #ffffff;
+	background-color: #403737;
+	text-align: center;
+}
+
+/*Main-col*/
+article#main-col{
+	float: left;
+	width: 65%;
+}
+
+/*Services*/
+ul#services li{
+	list-style: none;
+	padding: 20px;
+	border: #cccccc solid 1px;
+	margin-bottom: 5px;
+	background: #e6e6e6;
+}
+
+/*Media Queries*/
+/*Responsiveness is mostly removing floats*/
+@media (max-width: 768px) {
+	header #brandname, header nav, header nav li, #boxes .box,
+	article#main-col{
+		float: none;
+		text-align: center;
+		width: 100%;
+	}
+
+	header{
+		padding-bottom: 20px;
+	}
+
+	#showcase h1{
+		margin-top: 40px;
+	}
+}
