@@ -1,19 +1,44 @@
-#fmenu  label{
-    float: right;
-    color: black;
+
+
+.menu-group{
+    display: inline;
+    margin: 0;
     
-    margin-left: 10px;
-    margin-bottom: 10px;
-    margin-top: 0px;
 }
-#fmenu .gallery {
-    float: left;
-    width: auto;
-    padding: 0px;
+.menu-title{
+    display: inline;
+    margin: 0;
+    
 }
-#fmenu span {
-    font-weight: bold;
+.menu-img{
+    color: red;
+    float:left;
+    margin: 5px;
+    width: 30%;
 }
-#fmenu .gallery img{
+.menu-img img{
     width: 200px;
+}
+.menu-name{
+ margin: 5px;
+ width: 40%;
+ float: left;
+}
+.menu-add{
+    margin: 5px;
+    float:right;
+    width: 10%;
+}
+.menu-title h3{
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-width: 768px) {
+    .menu-img, .menu-name, .menu-add{
+        float: none;
+    }
+    .menu-title{
+        display: none;
+    }
 }
