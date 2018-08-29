@@ -42,6 +42,27 @@
    width: 400px;
     border: 3px solid #403737;
 }
+
+#checkout button{
+    background-color: green;
+    font-size: 25px;
+    border: none;
+    margin-top: 0px;
+    border-radius: 0px;
+    color: white;
+    padding: 15px;
+    width: 100%;
+}
+#checkout h2{
+    background-color: white;
+    font-size: 25px;
+    margin-top: 5px;
+    color: #403737;
+    padding: 15px;
+    width: 90%;
+    text-align: center;
+    text-transform: uppercase;
+}
 @media (max-width: 768px) {
     .menu-img, .menu-name, .menu-add{
         float: none;
